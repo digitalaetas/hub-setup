@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Postavljanje Aetas Huba na cist Ubuntu server (kao root). Ne sadrzi tajne.
+set -euo pipefail
 
 REPO="git@github.com:digitalaetas/aetas-hub.git"
 DIR=/opt/hub
